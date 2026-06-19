@@ -1,0 +1,39 @@
+<h2>Lista de Livros</h2>
+
+<table>
+
+  <tr
+    *ngFor="
+      let livro of livros
+    "
+  >
+
+    <td>
+      {{ livro.titulo }}
+    </td>
+
+    <td>
+      {{ livro.autores.join(', ') }}
+    </td>
+
+    <td>
+
+      <button
+
+        (click)="
+          excluir(
+            livro.codigo
+          )
+        "
+
+      >
+
+        Excluir
+
+      </button>
+
+    </td>
+
+  </tr>
+
+</table>
