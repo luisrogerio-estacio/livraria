@@ -1,7 +1,8 @@
-Livraria
-Projeto acadêmico desenvolvido para demonstrar a integração entre diferentes tecnologias de desenvolvimento web, utilizando MongoDB como banco de dados NoSQL, Express e Mongoose para o backend, e React, Next.js e Angular como clientes consumidores da API.
+#Livraria-fullstack
 
-Tecnologias Utilizadas
+##Projeto acadêmico desenvolvido para demonstrar a integração entre diferentes tecnologias de desenvolvimento web, utilizando MongoDB como banco de dados NoSQL, Express e Mongoose para o backend, e React, Next.js e Angular como clientes consumidores da API.
+
+##Tecnologias Utilizadas
 Backend
 Node.js
 Express
@@ -11,12 +12,12 @@ Frontend
 React
 Next.js
 Angular
-Arquitetura
+##Arquitetura
 O sistema segue uma arquitetura cliente-servidor.
 
 Frontend → API Express → MongoDB
 
-Estrutura do Projeto
+#Estrutura do Projeto
 livraria-fullstack
 
 ├── livro-servidor
@@ -33,16 +34,16 @@ livraria-fullstack
 
 └── README.md
 
-Funcionalidades
+#Funcionalidades
 Cadastro de livros
 Listagem de livros
 Exclusão de livros
 Persistência em MongoDB
 Integração entre múltiplos frameworks frontend
 Porta Utilizada
-Servidor Express:
+#Servidor Express:
 
 http://localhost:3030/livros
 
-Autor
+#Autor
 Luís Rogério Rodrigues Consentino
